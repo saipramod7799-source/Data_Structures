@@ -1,0 +1,60 @@
+
+
+Binary Search Tree(following are the 2 types of deleting a node in a binary search tree)
+---------------------------------------------------------------------------------
+Inorder-Precessor : if we are deleting a node in the binary search tree take the bigger node from the
+                    right side of the tree and replace it with the deleting node
+Inorder-successor : if we are deleting a node in the binary search tree take the smaller node from the
+                    left side of the tree and replace it with the deleting node
+---------------------------------------------------------------------------------
+Inorder traversal:
+-----------------------
+Follow (left, root, right)
+Link : https://media.geeksforgeeks.org/wp-content/cdn-uploads/Preorder-from-Inorder-and-Postorder-traversals.jpg
+Check the above link to see the example of Inorder traversal
+
+PreOrder traversal:
+-----------------------
+Follow (root, left, right)
+Link : https://media.geeksforgeeks.org/wp-content/cdn-uploads/Preorder-from-Inorder-and-Postorder-traversals.jpg
+Follow the above for all the different types of traversal techniques
+
+PostOrder traversal:
+-------------------------
+Follow (left, right, root)
+Link : https://media.geeksforgeeks.org/wp-content/cdn-uploads/Preorder-from-Inorder-and-Postorder-traversals.jpg
+Follow the above for all the different types of traversal techniques
+
+
+Hashing techniques
+---------------------------
+Hashing is a technique or process of mapping keys, and values into the hash table by using a hash function.
+It is done for faster access to elements. The efficiency of mapping depends on the efficiency of the hash function
+used.
+
+Let a hash function H(x) maps the value x at the index x%10 in an Array.
+For example if the list of values is [11,12,13,14,15] it will be stored at positions
+{1,2,3,4,5} in the array or Hash table respectively.
+
+Hashing chaining with the linked list
+-------------------------------------------
+Every index of the array carries a linked list because while storing the values by using the above technique if any
+both of the values has to go to the same index of the array then we will use this Hashing chaining with the linked
+list technique that to while storing the values into the linked list we will sort the elements in the linked list.
+
+Linear hash shifting
+-----------------------------
+While storing the values in the array we will perform %10 operation. if value is already present in that
+particular index we should do +1 till we got the empty index to store and keep that value inside that
+particular index.
+
+Square hash shifting
+------------------------------
+While storing the values in the array we will perform %10 operation. if value is already present in that
+particular index we should do +1, +2, +2^2, +3^2, +4^2 till we got the empty index to store. if the value is
+out of the array length we need to do %10 operation then keep that value inside that particular index.
+
+Selection sort
+----------------------------
+Follow the below link for selection sort
+Link : https://miro.medium.com/v2/resize:fit:463/0*J2ta_c6YA870MKor
